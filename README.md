@@ -13,7 +13,7 @@ This project automates the following tasks:
 
 3. **Triggers**:
    - **`event_watcher.py`**: Detects changes in any table in the source DB and runs the pipeline.
-   - **`time_watcher.py`**: Runs the pipeline every fixed interval (e.g., every 100 seconds).
+   - **`time_watcher.py`**: Runs the pipeline every fixed interval.
 
 ---
 
