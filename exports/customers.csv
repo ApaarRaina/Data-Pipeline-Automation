@@ -27,3 +27,4 @@ customer_id,name,email,phone,subscription_status,join_date
 218,bluestar,bluestar@example.com,,active,2025-06-22
 219,sunrise,sunrise@example.com,,active,2025-06-22
 220,randombee,randombee@example.com,,active,2025-06-22
+221,randomfox,randomfox@example.com,,active,2025-06-22

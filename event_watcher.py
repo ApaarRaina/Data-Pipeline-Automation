@@ -12,14 +12,12 @@ database = config['database']
 username = config['username']
 password = config['password']
 
-conn = pyodbc.connect(
-    f"DRIVER={{MySQL ODBC 9.3 Unicode Driver}};"
-    f"SERVER={server};DATABASE={database};UID={username};PWD={password};"
-)
-
-cursor = conn.cursor()
-
 def get_state():
+    conn = pyodbc.connect(
+        f"DRIVER={{MySQL ODBC 9.3 Unicode Driver}};"
+        f"SERVER={server};DATABASE={database};UID={username};PWD={password};"
+    )
+    cursor = conn.cursor()
     state = {}
     cursor.execute("SHOW TABLES")
     tables = [row[0] for row in cursor.fetchall()]
@@ -31,6 +29,9 @@ def get_state():
         except:
             count = None
         state[table] = count
+
+    cursor.close()
+    conn.close()
     return state
 
 previous_state = get_state()
@@ -50,7 +51,8 @@ while True:
             break
 
     if changed:
-        print("Running automation.py...")
+        print("Running")
         os.system("python automation.py")
 
     previous_state = current_state
+    time.sleep(10)
