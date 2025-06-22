@@ -1,0 +1,29 @@
+customer_id,name,email,phone,subscription_status,join_date
+1,Customer_1,customer1@example.com,+91-987651000,active,2022-01-01
+2,Customer_2,customer2@example.com,+91-987651001,inactive,2022-01-16
+3,Customer_3,customer3@example.com,+91-987651002,inactive,2022-01-31
+4,Customer_4,customer4@example.com,+91-987651003,active,2022-02-15
+5,Customer_5,customer5@example.com,+91-987651004,active,2022-03-02
+6,Customer_6,customer6@example.com,+91-987651005,active,2022-03-17
+7,Customer_7,customer7@example.com,+91-987651006,inactive,2022-04-01
+8,Customer_8,customer8@example.com,+91-987651007,active,2022-04-16
+9,Customer_9,customer9@example.com,+91-987651008,active,2022-05-01
+10,Customer_10,customer10@example.com,+91-987651009,active,2022-05-16
+11,Customer_11,customer11@example.com,+91-987651010,active,2022-05-31
+12,Customer_12,customer12@example.com,+91-987651011,inactive,2022-06-15
+13,Customer_13,customer13@example.com,+91-987651012,active,2022-06-30
+14,Customer_14,customer14@example.com,+91-987651013,active,2022-07-15
+15,Customer_15,customer15@example.com,+91-987651014,active,2022-07-30
+16,Customer_16,customer16@example.com,+91-987651015,inactive,2022-08-14
+17,Customer_17,customer17@example.com,+91-987651016,active,2022-08-29
+18,Customer_18,customer18@example.com,+91-987651017,active,2022-09-13
+19,Customer_19,customer19@example.com,+91-987651018,inactive,2022-09-28
+20,Customer_20,customer20@example.com,+91-987651019,active,2022-10-13
+101,Apaar Raina,apaar@example.com,,active,2025-06-22
+102,Priya Verma,priya@example.com,,inactive,2025-06-22
+214,jexorlim,jexorlim@example.com,,inactive,2025-06-22
+216,random,random@example.com,,active,2025-06-22
+217,random,random@example.com,,active,2025-06-22
+218,bluestar,bluestar@example.com,,active,2025-06-22
+219,sunrise,sunrise@example.com,,active,2025-06-22
+220,randombee,randombee@example.com,,active,2025-06-22

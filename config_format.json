@@ -1,0 +1,9 @@
+{
+  "server": "localhost",
+  "database": "original_db",
+  "username": "username",
+  "password": "your_password",
+  "source_db": "source_db",
+  "target_db": "target_db",
+  "processed_db": "processed_db"
+}
